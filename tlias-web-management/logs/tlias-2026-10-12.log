@@ -1,0 +1,542 @@
+2026-10-12 05:14:05.711 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h37m21s327ms529µs900ns).
+2026-10-12 09:36:50.443 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h12m44s547ms742µs800ns).
+2026-10-12 14:50:34.619 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h4m21s463ms573µs700ns).
+2026-10-12 15:23:34.396 [http-nio-8080-exec-2] INFO  com.powernode.filter.TokenFilter - 登录请求，放行
+2026-10-12 15:23:34.425 [http-nio-8080-exec-2] INFO  com.powernode.controller.LoginController - 登录: Emp(id=null, username=茂茂, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-10-12 15:23:34.461 [http-nio-8080-exec-2] INFO  com.powernode.service.impl.EmpServiceImpl - 登录成功,员工信息:Emp(id=44, username=茂茂, password=null, name=徐茂仙, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-10-12 15:23:37.223 [http-nio-8080-exec-3] INFO  com.powernode.controller.ClazzController - 分页查询:ClazzParam(page=1, pageSize=10, name=, masterId=null, room=null, begin=null, end=null, status=null)
+2026-10-12 15:23:37.223 [http-nio-8080-exec-6] ERROR com.powernode.exception.GlobalExceptionHandler - 程序出错了
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "list"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:295)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:134)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:174)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.powernode.filter.TokenFilter.doFilter(TokenFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.valueOf(Integer.java:912)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:438)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:411)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:158)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:75)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:51)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:846)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:287)
+	... 45 common frames omitted
+2026-10-12 15:23:43.922 [http-nio-8080-exec-5] INFO  com.powernode.controller.ClazzController - 根据id查询班级:9
+2026-10-12 15:23:49.314 [http-nio-8080-exec-4] INFO  com.powernode.controller.ClazzController - 根据id修改班级:Clazz(id=9, name=1314520, room=520, beginDate=2026-10-10, endDate=2026-10-03, masterId=null, subject=1, createTime=2026-10-10T16:33:08, updateTime=2026-10-10T16:46:21, masterName=null, status=null)
+2026-10-12 15:23:49.354 [http-nio-8080-exec-9] INFO  com.powernode.controller.ClazzController - 分页查询:ClazzParam(page=1, pageSize=10, name=, masterId=null, room=null, begin=null, end=null, status=null)
+2026-10-12 15:23:51.426 [http-nio-8080-exec-8] INFO  com.powernode.controller.ClazzController - 根据id查询班级:9
+2026-10-12 15:23:54.503 [http-nio-8080-exec-7] INFO  com.powernode.controller.ClazzController - 根据id修改班级:Clazz(id=9, name=1314520, room=520, beginDate=2026-10-10, endDate=2026-10-28, masterId=null, subject=1, createTime=2026-10-10T16:33:08, updateTime=2026-10-12T15:23:49, masterName=null, status=null)
+2026-10-12 15:23:54.520 [http-nio-8080-exec-10] INFO  com.powernode.controller.ClazzController - 分页查询:ClazzParam(page=1, pageSize=10, name=, masterId=null, room=null, begin=null, end=null, status=null)
+2026-10-12 15:23:55.888 [http-nio-8080-exec-1] INFO  com.powernode.controller.ClazzController - 根据id查询班级:8
+2026-10-12 15:24:02.946 [http-nio-8080-exec-2] INFO  com.powernode.controller.ClazzController - 根据id修改班级:Clazz(id=8, name=JavaEE就业167期, room=325, beginDate=2023-11-20, endDate=2027-05-20, masterId=36, subject=1, createTime=2023-11-15T11:35:46, updateTime=2023-12-13T14:31:24, masterName=null, status=null)
+2026-10-12 15:24:02.995 [http-nio-8080-exec-6] INFO  com.powernode.controller.ClazzController - 分页查询:ClazzParam(page=1, pageSize=10, name=, masterId=null, room=null, begin=null, end=null, status=null)
+2026-10-12 15:24:04.888 [http-nio-8080-exec-3] INFO  com.powernode.controller.ClazzController - 根据id查询班级:6
+2026-10-12 15:24:14.066 [http-nio-8080-exec-5] INFO  com.powernode.controller.ClazzController - 根据id修改班级:Clazz(id=6, name=JavaEE就业166期, room=105, beginDate=2023-07-20, endDate=2027-04-15, masterId=20, subject=1, createTime=2023-06-01T17:46:10, updateTime=2023-06-01T17:46:10, masterName=null, status=null)
+2026-10-12 15:24:14.094 [http-nio-8080-exec-4] INFO  com.powernode.controller.ClazzController - 分页查询:ClazzParam(page=1, pageSize=10, name=, masterId=null, room=null, begin=null, end=null, status=null)
+2026-10-12 15:26:49.931 [http-nio-8080-exec-9] INFO  com.powernode.controller.ReportController - 统计员工职位人数
+2026-10-12 15:26:49.931 [http-nio-8080-exec-8] INFO  com.powernode.controller.ReportController - 统计员工性别人数
+2026-10-12 15:26:51.222 [http-nio-8080-exec-7] INFO  com.powernode.controller.ReportController - 统计每一个班级的人数
+2026-10-12 15:26:51.222 [http-nio-8080-exec-10] INFO  com.powernode.controller.ReportController - 统计学员的学历信息
+2026-10-12 15:26:52.212 [http-nio-8080-exec-1] ERROR com.powernode.exception.GlobalExceptionHandler - 程序出错了
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource log/page for request '/log/page'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.powernode.filter.TokenFilter.doFilter(TokenFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-10-12 15:26:54.258 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-12 15:26:54.693 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-12 15:26:54.694 [http-nio-8080-exec-6] INFO  com.powernode.controller.EmpController - 分页查询:com.powernode.service.impl.EmpServiceImpl@b567c83
+2026-10-12 15:26:55.930 [http-nio-8080-exec-4] INFO  com.powernode.controller.ClazzController - 查询所有班级
+2026-10-12 15:26:55.930 [http-nio-8080-exec-5] INFO  com.powernode.controller.StudentController - 分页查询:StudentParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-10-12 15:26:56.335 [http-nio-8080-exec-8] INFO  com.powernode.controller.ClazzController - 分页查询:ClazzParam(page=1, pageSize=10, name=, masterId=null, room=null, begin=null, end=null, status=null)
+2026-10-12 15:26:56.337 [http-nio-8080-exec-9] ERROR com.powernode.exception.GlobalExceptionHandler - 程序出错了
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "list"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:295)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:134)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:174)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.powernode.filter.TokenFilter.doFilter(TokenFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.valueOf(Integer.java:912)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:438)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:411)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:158)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:75)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:51)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:846)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:287)
+	... 45 common frames omitted
+2026-10-12 15:55:32.181 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12 15:55:32.194 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 15:55:32.207 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 15:55:32.210 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 15:55:41.927 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 26016 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-12 15:55:41.929 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-12 15:55:41.929 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-12 15:55:43.036 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 15:55:43.055 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 15:55:43.056 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 15:55:43.056 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 15:55:43.100 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1143 ms
+2026-10-12 15:55:43.783 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 15:55:43.793 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 15:55:43.796 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.101 seconds (process running for 2.828)
+2026-10-12 15:55:50.095 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 15:55:50.095 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 15:55:50.097 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-10-12 15:55:50.229 [http-nio-8080-exec-2] INFO  com.powernode.controller.ClazzController - 查询所有班级
+2026-10-12 15:55:50.231 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791791750231
+2026-10-12 15:55:50.239 [http-nio-8080-exec-1] INFO  com.powernode.controller.StudentController - 分页查询:StudentParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-10-12 15:55:50.239 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791791750239
+2026-10-12 15:55:50.248 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 15:55:50.613 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3675c8a3
+2026-10-12 15:55:50.615 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 15:55:50.664 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791791750664
+2026-10-12 15:55:50.664 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法执行时间:433
+2026-10-12 15:55:50.673 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791791750673
+2026-10-12 15:55:50.673 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法执行时间:434
+2026-10-12 15:56:11.246 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12 15:56:11.250 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 15:56:11.253 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 15:56:11.256 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 15:56:13.980 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 22352 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-12 15:56:13.981 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-12 15:56:13.982 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-12 15:56:14.701 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 15:56:14.711 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 15:56:14.711 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 15:56:14.711 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 15:56:14.767 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 757 ms
+2026-10-12 15:56:15.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 15:56:15.351 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 15:56:15.354 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.63 seconds (process running for 2.13)
+2026-10-12 15:56:20.061 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12 15:56:20.066 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 15:56:21.597 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 23228 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-12 15:56:21.599 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-12 15:56:21.599 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-12 15:56:22.287 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 15:56:22.295 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 15:56:22.296 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 15:56:22.296 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 15:56:22.341 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 709 ms
+2026-10-12 15:56:22.862 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 15:56:22.874 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 15:56:22.877 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.538 seconds (process running for 2.043)
+2026-10-12 15:56:27.045 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 15:56:27.046 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 15:56:27.046 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-10-12 15:56:27.165 [http-nio-8080-exec-2] INFO  com.powernode.controller.ClazzController - 分页查询:ClazzParam(page=1, pageSize=10, name=, masterId=null, room=null, begin=null, end=null, status=null)
+2026-10-12 15:56:27.199 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791791787199
+2026-10-12 15:56:27.163 [http-nio-8080-exec-1] ERROR com.powernode.exception.GlobalExceptionHandler - 程序出错了
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "list"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:295)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:134)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:174)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.powernode.filter.TokenFilter.doFilter(TokenFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.valueOf(Integer.java:912)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:438)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:411)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:158)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:75)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:51)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:846)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:287)
+	... 45 common frames omitted
+2026-10-12 15:56:27.281 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 15:56:27.580 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49b9fb5b
+2026-10-12 15:56:27.581 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 15:56:27.640 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791791787640
+2026-10-12 15:56:27.640 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法执行时间:441 ms
+2026-10-12 15:58:00.105 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12 15:58:00.109 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 15:58:00.111 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 15:58:00.115 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 15:58:02.873 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 12356 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-12 15:58:02.874 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-12 15:58:02.875 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-12 15:58:03.612 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 15:58:03.621 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 15:58:03.622 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 15:58:03.622 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 15:58:03.667 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 766 ms
+2026-10-12 15:58:04.220 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 15:58:04.230 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 15:58:04.233 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.65 seconds (process running for 2.228)
+2026-10-12 15:58:08.874 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 15:58:08.874 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 15:58:08.875 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-10-12 15:58:08.970 [http-nio-8080-exec-2] INFO  com.powernode.controller.ClazzController - 查询所有班级
+2026-10-12 15:58:08.972 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791791888972
+2026-10-12 15:58:08.980 [http-nio-8080-exec-1] INFO  com.powernode.controller.StudentController - 分页查询:StudentParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-10-12 15:58:08.981 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791791888981
+2026-10-12 15:58:08.986 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 15:58:09.233 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@89d590a
+2026-10-12 15:58:09.235 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 15:58:09.283 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791791889283
+2026-10-12 15:58:09.284 [http-nio-8080-exec-2] INFO  com.powernode.aop.RecordTimeAspect - 方法 List com.powernode.service.impl.ClazzServiceImpl.listAll() 执行时间:311 ms
+2026-10-12 15:58:09.291 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791791889291
+2026-10-12 15:58:09.291 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法 PageResult com.powernode.service.impl.StudentServiceImpl.page(StudentParam) 执行时间:310 ms
+2026-10-12 16:25:07.482 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12 16:25:07.488 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 16:25:07.491 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 16:25:07.493 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 16:25:09.374 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 42748 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-12 16:25:09.376 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-12 16:25:09.376 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-12 16:25:10.169 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 16:25:10.179 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 16:25:10.180 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 16:25:10.180 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 16:25:10.231 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 824 ms
+2026-10-12 16:25:10.846 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 16:25:10.856 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 16:25:10.859 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.795 seconds (process running for 2.314)
+2026-10-12 21:33:02.113 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 21:33:02.120 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 21:33:02.146 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 26 ms
+2026-10-12 21:33:02.432 [http-nio-8080-exec-1] INFO  com.powernode.controller.StudentController - 根据id查询学员:11
+2026-10-12 21:33:02.438 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791811982438
+2026-10-12 21:33:02.472 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 21:33:02.857 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a82dce1
+2026-10-12 21:33:02.861 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 21:33:02.936 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791811982936
+2026-10-12 21:33:02.937 [http-nio-8080-exec-1] INFO  com.powernode.aop.RecordTimeAspect - 方法 Student com.powernode.service.impl.StudentServiceImpl.getInfo(Integer) 执行时间:498 ms
+2026-10-12 21:33:04.667 [http-nio-8080-exec-5] INFO  com.powernode.controller.StudentController - 根据id查询学员:12
+2026-10-12 21:33:04.668 [http-nio-8080-exec-5] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791811984668
+2026-10-12 21:33:04.671 [http-nio-8080-exec-5] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791811984671
+2026-10-12 21:33:04.672 [http-nio-8080-exec-5] INFO  com.powernode.aop.RecordTimeAspect - 方法 Student com.powernode.service.impl.StudentServiceImpl.getInfo(Integer) 执行时间:3 ms
+2026-10-12 21:33:07.240 [http-nio-8080-exec-6] INFO  com.powernode.controller.StudentController - 根据id查询学员:1
+2026-10-12 21:33:07.241 [http-nio-8080-exec-6] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791811987241
+2026-10-12 21:33:07.244 [http-nio-8080-exec-6] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791811987244
+2026-10-12 21:33:07.244 [http-nio-8080-exec-6] INFO  com.powernode.aop.RecordTimeAspect - 方法 Student com.powernode.service.impl.StudentServiceImpl.getInfo(Integer) 执行时间:3 ms
+2026-10-12 21:33:09.538 [http-nio-8080-exec-7] INFO  com.powernode.controller.StudentController - 根据id查询学员:3
+2026-10-12 21:33:09.538 [http-nio-8080-exec-7] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791811989538
+2026-10-12 21:33:09.541 [http-nio-8080-exec-7] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791811989541
+2026-10-12 21:33:09.541 [http-nio-8080-exec-7] INFO  com.powernode.aop.RecordTimeAspect - 方法 Student com.powernode.service.impl.StudentServiceImpl.getInfo(Integer) 执行时间:3 ms
+2026-10-12 21:33:13.374 [http-nio-8080-exec-8] INFO  com.powernode.controller.StudentController - 分页查询:StudentParam(page=2, pageSize=10, name=, degree=null, clazzId=null)
+2026-10-12 21:33:13.375 [http-nio-8080-exec-8] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791811993375
+2026-10-12 21:33:13.472 [http-nio-8080-exec-8] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791811993472
+2026-10-12 21:33:13.473 [http-nio-8080-exec-8] INFO  com.powernode.aop.RecordTimeAspect - 方法 PageResult com.powernode.service.impl.StudentServiceImpl.page(StudentParam) 执行时间:97 ms
+2026-10-12 21:33:34.113 [http-nio-8080-exec-10] INFO  com.powernode.controller.StudentController - 分页查询:StudentParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-10-12 21:33:34.113 [http-nio-8080-exec-10] INFO  com.powernode.aop.RecordTimeAspect - 方法执行开始时间:1791812014113
+2026-10-12 21:33:34.122 [http-nio-8080-exec-10] INFO  com.powernode.aop.RecordTimeAspect - 方法执行结束时间:1791812014122
+2026-10-12 21:33:34.122 [http-nio-8080-exec-10] INFO  com.powernode.aop.RecordTimeAspect - 方法 PageResult com.powernode.service.impl.StudentServiceImpl.page(StudentParam) 执行时间:9 ms
+2026-10-12 22:01:50.938 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12 22:01:50.943 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 22:01:50.948 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 22:01:50.950 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 22:02:00.477 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 2776 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-12 22:02:00.479 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-12 22:02:00.479 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-12 22:02:01.632 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 22:02:01.642 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 22:02:01.643 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 22:02:01.643 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 22:02:01.675 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1159 ms
+2026-10-12 22:02:02.224 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 22:02:02.235 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 22:02:02.238 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.058 seconds (process running for 2.841)
+2026-10-12 22:02:17.940 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 22:02:17.940 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 22:02:17.941 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-10-12 22:02:18.040 [http-nio-8080-exec-1] INFO  com.powernode.filter.TokenFilter - 当前用户ID:44
+2026-10-12 22:02:18.063 [http-nio-8080-exec-1] INFO  com.powernode.controller.StudentController - 批量删除学员，ids字符串:1
+2026-10-12 22:02:18.086 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 22:02:18.338 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c569ab6
+2026-10-12 22:02:18.339 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 22:02:18.442 [http-nio-8080-exec-2] INFO  com.powernode.filter.TokenFilter - 当前用户ID:44
+2026-10-12 22:02:18.449 [http-nio-8080-exec-2] INFO  com.powernode.controller.StudentController - 分页查询:StudentParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-10-12 22:04:56.946 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12 22:04:56.951 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 22:04:56.953 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 22:04:56.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 22:04:58.642 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 18728 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-12 22:04:58.645 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-12 22:04:58.645 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-12 22:04:59.355 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 22:04:59.368 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 22:04:59.369 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 22:04:59.369 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 22:04:59.406 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 731 ms
+2026-10-12 22:04:59.871 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 22:04:59.882 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 22:04:59.885 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.494 seconds (process running for 2.006)
+2026-10-12 22:05:17.108 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 22:05:17.109 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 22:05:17.110 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-10-12 22:05:17.113 [http-nio-8080-exec-1] INFO  com.powernode.filter.TokenFilter - 登录请求，放行
+2026-10-12 22:05:17.187 [http-nio-8080-exec-1] INFO  com.powernode.controller.LoginController - 登录: Emp(id=null, username=茂茂, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-10-12 22:05:17.204 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 22:05:17.450 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32c1dc04
+2026-10-12 22:05:17.452 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 22:05:17.501 [http-nio-8080-exec-1] INFO  com.powernode.service.impl.EmpServiceImpl - 登录成功,员工信息:Emp(id=44, username=茂茂, password=null, name=徐茂仙, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-10-12 22:09:23.282 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-12 22:09:23.287 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 22:09:23.289 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 22:09:23.293 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 22:09:26.104 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 37848 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-12 22:09:26.106 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-12 22:09:26.107 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-12 22:09:26.779 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-12 22:09:26.791 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-12 22:09:26.792 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 22:09:26.792 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-12 22:09:26.822 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 687 ms
+2026-10-12 22:09:27.344 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-12 22:09:27.354 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-12 22:09:27.357 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.519 seconds (process running for 2.016)
+2026-10-12 22:09:31.209 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 22:09:31.209 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 22:09:31.210 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-10-12 22:09:31.295 [http-nio-8080-exec-2] INFO  com.powernode.filter.TokenFilter - 当前用户ID:44
+2026-10-12 22:09:31.295 [http-nio-8080-exec-1] INFO  com.powernode.filter.TokenFilter - 当前用户ID:44
+2026-10-12 22:09:31.320 [http-nio-8080-exec-2] INFO  com.powernode.controller.ClazzController - 分页查询:ClazzParam(page=1, pageSize=10, name=, masterId=null, room=null, begin=null, end=null, status=null)
+2026-10-12 22:09:31.318 [http-nio-8080-exec-1] ERROR com.powernode.exception.GlobalExceptionHandler - 程序出错了
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "list"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:295)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:134)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:174)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at com.powernode.filter.TokenFilter.doFilter(TokenFilter.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.valueOf(Integer.java:912)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:438)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:411)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:158)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:75)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:51)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:846)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:287)
+	... 45 common frames omitted
+2026-10-12 22:09:31.406 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 22:09:31.680 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b917a48
+2026-10-12 22:09:31.681 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 22:09:33.494 [http-nio-8080-exec-5] INFO  com.powernode.filter.TokenFilter - 当前用户ID:44
+2026-10-12 22:09:33.494 [http-nio-8080-exec-4] INFO  com.powernode.filter.TokenFilter - 当前用户ID:44
+2026-10-12 22:09:33.494 [http-nio-8080-exec-5] INFO  com.powernode.controller.ClazzController - 查询所有班级
+2026-10-12 22:09:33.495 [http-nio-8080-exec-4] INFO  com.powernode.controller.StudentController - 分页查询:StudentParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-10-12 22:09:40.519 [http-nio-8080-exec-3] INFO  com.powernode.filter.TokenFilter - 当前用户ID:44
+2026-10-12 22:09:40.532 [http-nio-8080-exec-3] INFO  com.powernode.controller.StudentController - 批量删除学员，ids字符串:2
+2026-10-12 22:09:40.557 [http-nio-8080-exec-3] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-12 22:09:40.563 [http-nio-8080-exec-6] INFO  com.powernode.filter.TokenFilter - 当前用户ID:44
+2026-10-12 22:09:40.564 [http-nio-8080-exec-6] INFO  com.powernode.controller.StudentController - 分页查询:StudentParam(page=1, pageSize=10, name=, degree=null, clazzId=null)
+2026-10-12 23:08:56.962 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m25s125ms358µs800ns).

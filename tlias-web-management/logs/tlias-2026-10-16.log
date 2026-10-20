@@ -1,0 +1,527 @@
+2026-10-16 20:43:16.624 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 13340 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-16 20:43:16.629 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-16 20:43:16.630 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-16 20:43:18.006 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-16 20:43:18.019 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-16 20:43:18.020 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-16 20:43:18.020 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-16 20:43:18.063 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1381 ms
+2026-10-16 20:43:18.717 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-16 20:43:18.730 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-16 20:43:18.733 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 2.553 seconds (process running for 3.593)
+2026-10-16 21:29:19.314 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-16 21:29:19.317 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-16 21:29:19.334 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2026-10-16 21:29:19.341 [http-nio-8080-exec-1] INFO  com.powernode.filter.TokenFilter - 令牌为空，响应401
+2026-10-16 21:29:46.608 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-16 21:29:46.614 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-16 21:29:50.440 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 8360 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-16 21:29:50.443 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-16 21:29:50.443 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-16 21:29:51.186 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-10-16 21:29:51.198 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-10-16 21:29:51.199 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-16 21:29:51.199 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-16 21:29:51.240 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 763 ms
+2026-10-16 21:29:51.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-10-16 21:29:51.754 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-10-16 21:29:51.757 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.572 seconds (process running for 2.149)
+2026-10-16 21:50:20.692 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-16 21:50:20.692 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-16 21:50:20.693 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-10-16 21:50:20.720 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 21:50:20.739 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-16 21:50:21.191 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d57af45
+2026-10-16 21:50:21.193 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-16 21:50:25.478 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 21:59:43.236 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 21:59:46.206 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:06:34.955 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:08:23.011 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:08:38.043 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:08:53.337 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:08:54.574 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:09:17.908 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:09:20.663 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:09:23.191 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:09:25.508 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:09:29.353 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:09:30.449 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:09:38.562 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:09:39.874 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:10:16.922 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:13:32.219 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:16:16.272 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:16:21.556 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:16:27.008 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:17:00.696 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:17:01.983 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:18:36.726 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:18:50.205 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:18:52.984 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:21:01.462 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:21:03.082 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:21:04.721 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:21:10.909 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:21:12.260 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:21:33.053 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 添加部门:Dept(id=null, name=茂茂部, createTime=null, updateTime=null)
+2026-10-16 22:21:33.118 [http-nio-8080-exec-3] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 22:21:34.888 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:23:43.231 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:23:54.111 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:24:34.010 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 添加部门:Dept(id=null, name=yes, createTime=null, updateTime=null)
+2026-10-16 22:24:34.022 [http-nio-8080-exec-7] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 22:24:34.029 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:25:16.103 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:25:21.127 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 添加部门:Dept(id=null, name=yes, createTime=null, updateTime=null)
+2026-10-16 22:25:21.278 [http-nio-8080-exec-10] ERROR com.powernode.exception.GlobalExceptionHandler - 程序出错了
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+### The error may exist in com/powernode/mapper/DeptMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into dept (name,create_time,update_time) values (?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+; Duplicate entry 'yes' for key 'dept.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:252)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:102)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy79.insert(Unknown Source)
+	at com.powernode.service.impl.DeptServiceImpl.add(DeptServiceImpl.java:32)
+	at com.powernode.controller.DeptController.add(DeptController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:82)
+	at com.powernode.aop.OperateLogAspect.logOperation(OperateLogAspect.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.powernode.controller.DeptController$$SpringCGLIB$$0.add(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy95.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy93.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 68 common frames omitted
+2026-10-16 22:25:53.611 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:02.310 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:07.536 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:09.197 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:10.548 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:12.210 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:13.327 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:14.431 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:16.255 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:26:24.894 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 添加部门:Dept(id=null, name=yes, createTime=null, updateTime=null)
+2026-10-16 22:26:24.904 [http-nio-8080-exec-10] ERROR com.powernode.exception.GlobalExceptionHandler - 程序出错了
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+### The error may exist in com/powernode/mapper/DeptMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into dept (name,create_time,update_time) values (?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+; Duplicate entry 'yes' for key 'dept.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:252)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:102)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy79.insert(Unknown Source)
+	at com.powernode.service.impl.DeptServiceImpl.add(DeptServiceImpl.java:32)
+	at com.powernode.controller.DeptController.add(DeptController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:82)
+	at com.powernode.aop.OperateLogAspect.logOperation(OperateLogAspect.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.powernode.controller.DeptController$$SpringCGLIB$$0.add(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy95.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy93.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 68 common frames omitted
+2026-10-16 22:27:33.652 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:27:35.462 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:27:44.971 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 添加部门:Dept(id=null, name=yes, createTime=null, updateTime=null)
+2026-10-16 22:27:44.980 [http-nio-8080-exec-3] ERROR com.powernode.exception.GlobalExceptionHandler - 程序出错了
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+### The error may exist in com/powernode/mapper/DeptMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into dept (name,create_time,update_time) values (?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+; Duplicate entry 'yes' for key 'dept.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:252)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:102)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy79.insert(Unknown Source)
+	at com.powernode.service.impl.DeptServiceImpl.add(DeptServiceImpl.java:32)
+	at com.powernode.controller.DeptController.add(DeptController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:82)
+	at com.powernode.aop.OperateLogAspect.logOperation(OperateLogAspect.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.powernode.controller.DeptController$$SpringCGLIB$$0.add(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'yes' for key 'dept.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy95.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy93.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 68 common frames omitted
+2026-10-16 22:27:50.188 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 添加部门:Dept(id=null, name=111, createTime=null, updateTime=null)
+2026-10-16 22:27:50.198 [http-nio-8080-exec-5] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 22:27:50.204 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:31:14.005 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:31:22.662 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:31:36.391 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:35:58.374 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:38:35.745 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:47:11.683 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:48:40.193 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:48:42.058 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:48:43.493 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:49:43.556 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:50:30.592 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:50:35.151 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:50:37.598 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:50:40.282 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:50:44.296 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:54:06.079 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:54:07.676 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:54:15.287 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:54:17.404 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:55:00.802 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:55:03.886 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:57:10.252 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:57:24.467 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:59:01.726 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:59:04.724 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:59:07.948 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:59:13.873 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 22:59:32.556 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 根据id查询部门:12
+2026-10-16 22:59:35.105 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 根据id查询部门:8
+2026-10-16 22:59:56.690 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 根据id查询部门:12
+2026-10-16 23:00:02.171 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:00:03.675 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:00:06.334 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:00:08.033 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:01:08.903 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:05:25.641 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:05:32.702 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:05:41.278 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:05:54.379 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:05:56.639 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:06:05.447 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:06:35.773 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 根据id查询部门:12
+2026-10-16 23:07:54.909 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:08:03.206 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:11:36.877 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:11:42.990 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 根据id查询部门:12
+2026-10-16 23:11:46.502 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=123, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T22:27:50)
+2026-10-16 23:11:46.526 [http-nio-8080-exec-2] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:11:46.534 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:13:33.904 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:13:37.363 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 根据id查询部门:12
+2026-10-16 23:13:39.888 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=333, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:11:47)
+2026-10-16 23:13:39.902 [http-nio-8080-exec-6] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:13:42.310 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=333, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:11:47)
+2026-10-16 23:13:42.322 [http-nio-8080-exec-7] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:13:42.708 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=333, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:11:47)
+2026-10-16 23:13:42.717 [http-nio-8080-exec-8] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:13:42.969 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=333, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:11:47)
+2026-10-16 23:13:42.974 [http-nio-8080-exec-9] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:13:43.157 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=333, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:11:47)
+2026-10-16 23:13:43.164 [http-nio-8080-exec-10] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:13:43.324 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=333, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:11:47)
+2026-10-16 23:13:43.334 [http-nio-8080-exec-1] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:13:43.477 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=333, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:11:47)
+2026-10-16 23:13:43.482 [http-nio-8080-exec-2] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:13:43.628 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=333, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:11:47)
+2026-10-16 23:13:43.637 [http-nio-8080-exec-3] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:13:48.491 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:14:39.247 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:14:41.944 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 根据id查询部门:12
+2026-10-16 23:14:44.672 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 根据id修改部门:Dept(id=12, name=222, createTime=2026-10-16T22:27:50, updateTime=2026-10-16T23:13:44)
+2026-10-16 23:14:44.690 [http-nio-8080-exec-7] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:14:44.697 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:14:49.929 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 添加部门:Dept(id=null, name=1213, createTime=null, updateTime=null)
+2026-10-16 23:14:49.956 [http-nio-8080-exec-9] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:14:49.963 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:15:49.924 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:15:52.127 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:16:06.477 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:16:07.570 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:16:16.175 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 根据id查询部门:13
+2026-10-16 23:16:18.093 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 根据id查询部门:8
+2026-10-16 23:18:47.317 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:19:10.869 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:19:14.615 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:19:41.370 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:19:43.855 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:20:21.819 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:20:32.916 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:20:44.923 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 根据id删除部门:13
+2026-10-16 23:20:44.941 [http-nio-8080-exec-5] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:20:44.948 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:20:49.925 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 根据id删除部门:12
+2026-10-16 23:20:49.941 [http-nio-8080-exec-6] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:20:49.948 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:21:53.195 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:21:55.418 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:22:13.299 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:22:15.367 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:22:22.393 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:22:34.385 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:24:57.863 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:25:01.736 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:25:02.161 [http-nio-8080-exec-6] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:25:02.327 [http-nio-8080-exec-7] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:25:02.488 [http-nio-8080-exec-8] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:25:02.659 [http-nio-8080-exec-9] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:25:04.513 [http-nio-8080-exec-10] INFO  com.powernode.controller.DeptController - 根据id查询部门:8
+2026-10-16 23:25:09.809 [http-nio-8080-exec-1] INFO  com.powernode.controller.DeptController - 根据id删除部门:8
+2026-10-16 23:25:09.821 [http-nio-8080-exec-1] INFO  com.powernode.aop.OperateLogAspect - 操作日志已保存
+2026-10-16 23:25:09.827 [http-nio-8080-exec-2] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:26:51.619 [http-nio-8080-exec-3] INFO  com.powernode.controller.DeptController - 查询全部部门数据
+2026-10-16 23:26:53.229 [http-nio-8080-exec-5] INFO  com.powernode.controller.DeptController - 根据id查询部门:7
+2026-10-16 23:26:54.228 [http-nio-8080-exec-4] INFO  com.powernode.controller.DeptController - 根据id查询部门:7

@@ -1,0 +1,32 @@
+2026-10-13 03:09:13.624 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h50m16s642ms521µs500ns).
+2026-10-13 09:14:21.271 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h4m11s567ms878µs200ns).
+2026-10-13 09:32:04.385 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-13 09:32:04.391 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-13 09:32:04.395 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-13 09:32:04.398 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-13 09:32:10.103 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 44060 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-13 09:32:10.104 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-13 09:32:10.105 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-13 09:32:11.153 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 10010 (http)
+2026-10-13 09:32:11.164 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10010"]
+2026-10-13 09:32:11.165 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-13 09:32:11.165 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-13 09:32:11.204 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1075 ms
+2026-10-13 09:32:11.767 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10010"]
+2026-10-13 09:32:11.778 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 10010 (http) with context path '/'
+2026-10-13 09:32:11.781 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.922 seconds (process running for 2.662)
+2026-10-13 09:32:25.222 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-13 09:32:25.227 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-13 09:32:26.835 [main] INFO  com.powernode.TliasWebManagementApplication - Starting TliasWebManagementApplication using Java 25.0.4 with PID 10984 (C:\study\JavaWeb\web-ai-project02\tlias-web-management\target\classes started by NICK in C:\study\JavaWeb\web-ai-project02\tlias-web-management)
+2026-10-13 09:32:26.837 [main] DEBUG com.powernode.TliasWebManagementApplication - Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-10-13 09:32:26.837 [main] INFO  com.powernode.TliasWebManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-10-13 09:32:27.594 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-10-13 09:32:27.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-13 09:32:27.605 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-13 09:32:27.605 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-13 09:32:27.644 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 771 ms
+2026-10-13 09:32:28.091 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-10-13 09:32:28.108 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-10-13 09:32:28.111 [main] INFO  com.powernode.TliasWebManagementApplication - Started TliasWebManagementApplication in 1.534 seconds (process running for 2.064)
+2026-10-13 13:13:23.432 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-13 13:13:23.436 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
